@@ -1,0 +1,22 @@
+@mixin hover {
+    opacity: 0.7;
+    transition: all .3s ease;
+}
+
+@mixin bp-large {
+    @media only screen and (max-width: $ci-large-screen) {
+        @content;
+    }
+}
+
+@mixin bp-medium {
+    @media only screen and (max-width: $ci-medium-screen) {
+        @content;
+    }
+}
+
+@mixin bp-small {
+    @media only screen and (max-width: $ci-small-screen) {
+        @content;
+    }
+}
