@@ -72,4 +72,4 @@ Inicjalizacja wtyczki
 
 ## Więcej informacji
 
-Aby poznać wszytskie opcje jakie oferuje wtyczka odwiedź stronę: https://pskorka.github.io/cookiee/
+Aby poznać wszystkie opcje jakie oferuje wtyczka odwiedź stronę: https://pskorka.github.io/cookiee/
