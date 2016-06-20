@@ -17,7 +17,8 @@ $( document ).ready(function() {
         $("html").cookiee().destroy();
     });
 
-    $('a#create').on('click', function(){
+    $('a#create').on('click', function(e){
+        e.preventDefault();
         var _type = $('select#type').val();
         var _buttonText = $('input#button_text').val();
 
