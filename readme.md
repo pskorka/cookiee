@@ -295,3 +295,5 @@ Inicjalizacja wtyczki
     domyślnie: false
     opcje: true, false // dodawanie cookies nieaktywne, dodawanie cookies aktywne
 ```
+
+
