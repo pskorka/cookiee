@@ -1,0 +1,43 @@
+site_name: Cookiee
+site_description: 'Easy and beautiful plugin displaying information about cookies on your website'
+site_author: Pawel Skorka
+theme: material
+
+# Repository
+repo_name: GitHub
+repo_url: 'https://github.com/pskorka/cookiee/'
+
+# Options
+extra:
+  version: '0.1.0'
+  logo: 'images/logo.png'
+  palette:
+    primary: 'cyan'
+    accent: 'red'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  i18n:
+    prev: 'Poprzednia'
+    next: 'Następna'
+
+# Extensions
+markdown_extensions:
+  - codehilite(css_class=code)
+  - admonition
+  - toc:
+      permalink: '#'
+
+extra_css: ['css/docs.css', css/cookiee.min.css]
+extra_javascript:
+    - js/jquery-1.12.4.js
+    - js/cookiee.js
+    - js/app.js
+
+
+pages:
+- Strona główna: 'index.md'
+- Demo: 'demo.md'
+- Dokumentacja: 'docs.md'
+- Pobierz: 'download.md'
+

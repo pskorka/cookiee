@@ -1,0 +1,60 @@
+blockquote p{
+    color: #00BCD4;
+    border-left: 4px solid;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.article h1{
+    font-size: 30px;
+}
+
+.article h2{
+    color: rgba(0,0,0,.87) !important;
+}
+
+.project .logo img{
+    background: none;
+    border: 0;
+    box-shadow: none !important;
+}
+
+.repo.download a{
+    color: #FFF !important;
+    padding: 20px !important;
+    height: auto !important;
+    font-size: 16px !important;
+    background: #CFDA33;
+}
+
+.palette-accent-cyan .repo.download li:before{
+    display: none;
+}
+
+.palette-accent-red .repo a {
+    background: #CFDA33;
+}
+
+input{
+    -webkit-appearance: normal;
+    -moz-appearance: normal;
+    -ms-appearance: normal;
+    -o-appearance: normal;
+    appearance: normal;
+}
+
+select, input{
+    border: 1px solid rgba(0,0,0,.12);
+    padding: 10px;
+    width: 150px;
+
+}
+
+.text-left{
+    text-align: left;
+}
+
+.small-btn{
+    padding: 10px 5px;
+}
