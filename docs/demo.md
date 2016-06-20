@@ -12,7 +12,7 @@
 <input id="button_text" type="text" value="Rozumiem">
 
 <div class="repo download small-btn text-left">
-    <a href="javascropt:void(0)" id="create"><i class="icon icon-cog"></i> Generuj</a>
+    <a href="#" id="create"><i class="icon icon-cog"></i> Generuj</a>
 </div>
 
 

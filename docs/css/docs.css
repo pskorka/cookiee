@@ -5,6 +5,12 @@ blockquote p{
     font-size: 16px;
     font-weight: 300;
 }
+img.logo-big{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: 300px;
+}
 
 .article h1{
     font-size: 30px;

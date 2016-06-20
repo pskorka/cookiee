@@ -9,6 +9,8 @@ repo_url: 'https://github.com/pskorka/cookiee/'
 
 # Options
 extra:
+  author:
+    github: 'pskorka'
   version: '0.1.0'
   logo: 'images/logo.png'
   palette:
