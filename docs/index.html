@@ -107,6 +107,11 @@
     </div>
     
     
+      
+      <div class="button button-github" role="button" aria-label="GitHub">
+        <a href="https://github.com/pskorka" title="@pskorka on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
+      </div>
+    
     <div class="button button-search" role="button" aria-label="Search">
       <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
     </div>
@@ -254,6 +259,20 @@
           
         </ul>
         
+          <hr>
+          <span class="section">The author</span>
+          <ul>
+            
+            
+              
+              <li>
+                <a href="https://github.com/pskorka" target="_blank" title="@pskorka on GitHub">
+                  @pskorka on GitHub
+                </a>
+              </li>
+            
+          </ul>
+        
       </div>
     </div>
   </div>
@@ -270,9 +289,10 @@
 </blockquote>
 <p>Wyświetlanie w postaci paska lub okienka.</p>
 
-<pre class="code"><code class="language-javascript">    typ: 'string'
-    domyślnie: 'modal' // okienko
-    opcje: 'modal', 'bar' // okienko, pasek</code></pre>
+<div class="code"><pre><span></span>    <span class="nx">typ</span><span class="o">:</span> <span class="s1">&#39;string&#39;</span>
+    <span class="nx">domyślnie</span><span class="o">:</span> <span class="s1">&#39;modal&#39;</span> <span class="c1">// okienko</span>
+    <span class="nx">opcje</span><span class="o">:</span> <span class="s1">&#39;modal&#39;</span><span class="p">,</span> <span class="s1">&#39;bar&#39;</span> <span class="c1">// okienko, pasek</span>
+</pre></div>
 
 
 <blockquote>
@@ -280,9 +300,10 @@
 </blockquote>
 <p>Schemat kolorystyczny.</p>
 
-<pre class="code"><code class="language-javascript">    typ: 'string'
-    domyślnie: 'light' // schamat jasny
-    opcje: 'light', 'dark' // schamat jasny, schemat ciemny</code></pre>
+<div class="code"><pre><span></span>    <span class="nx">typ</span><span class="o">:</span> <span class="s1">&#39;string&#39;</span>
+    <span class="nx">domyślnie</span><span class="o">:</span> <span class="s1">&#39;light&#39;</span> <span class="c1">// schamat jasny</span>
+    <span class="nx">opcje</span><span class="o">:</span> <span class="s1">&#39;light&#39;</span><span class="p">,</span> <span class="s1">&#39;dark&#39;</span> <span class="c1">// schamat jasny, schemat ciemny</span>
+</pre></div>
 
 
 <blockquote>
@@ -290,23 +311,24 @@
 </blockquote>
 <p>Własne opcje kolorystyczne</p>
 
-<pre class="code"><code class="language-javascript">    typ: 'object'
-    domyślnie: 
+<div class="code"><pre><span></span>    <span class="nx">typ</span><span class="o">:</span> <span class="s1">&#39;object&#39;</span>
+    <span class="nx">domyślnie</span><span class="o">:</span> 
 
-    colors:{
-        button: 'wartość w zależności od wybranego schematu kolorystycznego',
-        background: 'wartość w zależności od wybranego schematu kolorystycznego',
-        font: 'wartość w zależności od wybranego schematu kolorystycznego',
-        url: 'wartość w zależności od wybranego schematu kolorystycznego'
-    }
-    opcje:
+    <span class="nx">colors</span><span class="o">:</span><span class="p">{</span>
+        <span class="nx">button</span><span class="o">:</span> <span class="s1">&#39;wartość w zależności od wybranego schematu kolorystycznego&#39;</span><span class="p">,</span>
+        <span class="nx">background</span><span class="o">:</span> <span class="s1">&#39;wartość w zależności od wybranego schematu kolorystycznego&#39;</span><span class="p">,</span>
+        <span class="nx">font</span><span class="o">:</span> <span class="s1">&#39;wartość w zależności od wybranego schematu kolorystycznego&#39;</span><span class="p">,</span>
+        <span class="nx">url</span><span class="o">:</span> <span class="s1">&#39;wartość w zależności od wybranego schematu kolorystycznego&#39;</span>
+    <span class="p">}</span>
+    <span class="nx">opcje</span><span class="o">:</span>
 
-    colors:{
-        button: nazwa koloru lub wartość hexadecymalna  // kolor przycisku
-        background: nazwa koloru lub wartość hexadecymalna // kolor tła okienka/paska
-        font: nazwa koloru lub wartość hexadecymalna // kolor czcionki
-        url: nazwa koloru lub wartość hexadecymalna // kolor linków
-    }</code></pre>
+    <span class="nx">colors</span><span class="o">:</span><span class="p">{</span>
+        <span class="nx">button</span><span class="o">:</span> <span class="nx">nazwa</span> <span class="nx">koloru</span> <span class="nx">lub</span> <span class="nx">wartość</span> <span class="nx">hexadecymalna</span>  <span class="c1">// kolor przycisku</span>
+        <span class="nx">background</span><span class="o">:</span> <span class="nx">nazwa</span> <span class="nx">koloru</span> <span class="nx">lub</span> <span class="nx">wartość</span> <span class="nx">hexadecymalna</span> <span class="c1">// kolor tła okienka/paska</span>
+        <span class="nx">font</span><span class="o">:</span> <span class="nx">nazwa</span> <span class="nx">koloru</span> <span class="nx">lub</span> <span class="nx">wartość</span> <span class="nx">hexadecymalna</span> <span class="c1">// kolor czcionki</span>
+        <span class="nx">url</span><span class="o">:</span> <span class="nx">nazwa</span> <span class="nx">koloru</span> <span class="nx">lub</span> <span class="nx">wartość</span> <span class="nx">hexadecymalna</span> <span class="c1">// kolor linków</span>
+    <span class="p">}</span>
+</pre></div>
 
 
 <blockquote>
@@ -314,9 +336,10 @@
 </blockquote>
 <p>Cień</p>
 
-<pre class="code"><code class="language-javascript">    typ: 'boolean'
-    domyślnie: true
-    opcje: true, false // cień włączony, cień wyłączony</code></pre>
+<div class="code"><pre><span></span>    <span class="nx">typ</span><span class="o">:</span> <span class="s1">&#39;boolean&#39;</span>
+    <span class="nx">domyślnie</span><span class="o">:</span> <span class="kc">true</span>
+    <span class="nx">opcje</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span> <span class="kc">false</span> <span class="c1">// cień włączony, cień wyłączony</span>
+</pre></div>
 
 
 <blockquote>
@@ -324,9 +347,10 @@
 </blockquote>
 <p>Rodzaj przycisku akceptacji plików cookies</p>
 
-<pre class="code"><code class="language-javascript">    typ: 'string'
-    domyślnie: 'button'
-    opcje: 'button', 'cross' // przycisk, krzyżyk</code></pre>
+<div class="code"><pre><span></span>    <span class="nx">typ</span><span class="o">:</span> <span class="s1">&#39;string&#39;</span>
+    <span class="nx">domyślnie</span><span class="o">:</span> <span class="s1">&#39;button&#39;</span>
+    <span class="nx">opcje</span><span class="o">:</span> <span class="s1">&#39;button&#39;</span><span class="p">,</span> <span class="s1">&#39;cross&#39;</span> <span class="c1">// przycisk, krzyżyk</span>
+</pre></div>
 
 
 <blockquote>
@@ -334,9 +358,10 @@
 </blockquote>
 <p>Efekt zamykanie okienka</p>
 
-<pre class="code"><code class="language-javascript">    typ: 'string'
-    domyślnie: 'slide'
-    opcje: 'slide', 'fade', 'hide' // wyjazd, zanikanie, ukrycie</code></pre>
+<div class="code"><pre><span></span>    <span class="nx">typ</span><span class="o">:</span> <span class="s1">&#39;string&#39;</span>
+    <span class="nx">domyślnie</span><span class="o">:</span> <span class="s1">&#39;slide&#39;</span>
+    <span class="nx">opcje</span><span class="o">:</span> <span class="s1">&#39;slide&#39;</span><span class="p">,</span> <span class="s1">&#39;fade&#39;</span><span class="p">,</span> <span class="s1">&#39;hide&#39;</span> <span class="c1">// wyjazd, zanikanie, ukrycie</span>
+</pre></div>
 
 
 <blockquote>
@@ -344,9 +369,10 @@
 </blockquote>
 <p>Szybkość efektu zamykanie okienka</p>
 
-<pre class="code"><code class="language-javascript">    typ: 'number'
-    domyślnie: 500
-    opcje: wartość liczbowa // dowolna liczba całkowita (milisekunda)</code></pre>
+<div class="code"><pre><span></span>    <span class="nx">typ</span><span class="o">:</span> <span class="s1">&#39;number&#39;</span>
+    <span class="nx">domyślnie</span><span class="o">:</span> <span class="mi">500</span>
+    <span class="nx">opcje</span><span class="o">:</span> <span class="nx">wartość</span> <span class="nx">liczbowa</span> <span class="c1">// dowolna liczba całkowita (milisekunda)</span>
+</pre></div>
 
 
 <h2 id="opcje-okienka">Opcje okienka<a class="headerlink" href="#opcje-okienka" title="Permanent link">#</a></h2>
@@ -355,9 +381,10 @@
 </blockquote>
 <p>Pozycja okienka na stronie</p>
 
-<pre class="code"><code class="language-javascript">    typ: 'string'
-    domyślnie: 'bottom-right' // okienko w prawym dolnym rogu
-    opcje: 'top-left', 'top-right', 'bottom-left', 'bottom-right' // okienko w lewym górnym rogu, okienko w prawym górnym rogu, okienko w lewym dolnym rogu, okienko w prawym dolnym rogu </code></pre>
+<div class="code"><pre><span></span>    <span class="nx">typ</span><span class="o">:</span> <span class="s1">&#39;string&#39;</span>
+    <span class="nx">domyślnie</span><span class="o">:</span> <span class="s1">&#39;bottom-right&#39;</span> <span class="c1">// okienko w prawym dolnym rogu</span>
+    <span class="nx">opcje</span><span class="o">:</span> <span class="s1">&#39;top-left&#39;</span><span class="p">,</span> <span class="s1">&#39;top-right&#39;</span><span class="p">,</span> <span class="s1">&#39;bottom-left&#39;</span><span class="p">,</span> <span class="s1">&#39;bottom-right&#39;</span> <span class="c1">// okienko w lewym górnym rogu, okienko w prawym górnym rogu, okienko w lewym dolnym rogu, okienko w prawym dolnym rogu </span>
+</pre></div>
 
 
 <blockquote>
@@ -365,9 +392,10 @@
 </blockquote>
 <p>Odstęp od krawędzi okna przeglądarki</p>
 
-<pre class="code"><code class="language-javascript">    typ: 'number'
-    domyślnie: 20 // margines 20 pikseli
-    opcje: wartość liczbowa // dowolna liczba całkowita (piksel)</code></pre>
+<div class="code"><pre><span></span>    <span class="nx">typ</span><span class="o">:</span> <span class="s1">&#39;number&#39;</span>
+    <span class="nx">domyślnie</span><span class="o">:</span> <span class="mi">20</span> <span class="c1">// margines 20 pikseli</span>
+    <span class="nx">opcje</span><span class="o">:</span> <span class="nx">wartość</span> <span class="nx">liczbowa</span> <span class="c1">// dowolna liczba całkowita (piksel)</span>
+</pre></div>
 
 
 <blockquote>
@@ -375,9 +403,10 @@
 </blockquote>
 <p>Szerokość okienka</p>
 
-<pre class="code"><code class="language-javascript">    typ: 'number'
-    domyślnie: false // szerokość okienka dostosowuje się automatycznie w zależności od zawartości
-    opcje: wartość liczbowa, false // dowolna liczba całkowita (piksel), automatyczna szerokość</code></pre>
+<div class="code"><pre><span></span>    <span class="nx">typ</span><span class="o">:</span> <span class="s1">&#39;number&#39;</span>
+    <span class="nx">domyślnie</span><span class="o">:</span> <span class="kc">false</span> <span class="c1">// szerokość okienka dostosowuje się automatycznie w zależności od zawartości</span>
+    <span class="nx">opcje</span><span class="o">:</span> <span class="nx">wartość</span> <span class="nx">liczbowa</span><span class="p">,</span> <span class="kc">false</span> <span class="c1">// dowolna liczba całkowita (piksel), automatyczna szerokość</span>
+</pre></div>
 
 
 <blockquote>
@@ -385,9 +414,10 @@
 </blockquote>
 <p>Zaokrąglenie krawędzi okienka</p>
 
-<pre class="code"><code class="language-javascript">    typ: 'number'
-    domyślnie: false // szerokość okienka dostosowuje się automatycznie w zależności od zawartości
-    opcje: wartość liczbowa, false // dowolna liczba całkowita (piksel), brak zaokrąglenia</code></pre>
+<div class="code"><pre><span></span>    <span class="nx">typ</span><span class="o">:</span> <span class="s1">&#39;number&#39;</span>
+    <span class="nx">domyślnie</span><span class="o">:</span> <span class="kc">false</span> <span class="c1">// szerokość okienka dostosowuje się automatycznie w zależności od zawartości</span>
+    <span class="nx">opcje</span><span class="o">:</span> <span class="nx">wartość</span> <span class="nx">liczbowa</span><span class="p">,</span> <span class="kc">false</span> <span class="c1">// dowolna liczba całkowita (piksel), brak zaokrąglenia</span>
+</pre></div>
 
 
 <h2 id="opcje-przycisku">Opcje przycisku<a class="headerlink" href="#opcje-przycisku" title="Permanent link">#</a></h2>
@@ -396,9 +426,10 @@
 </blockquote>
 <p>Etykieta przycisku akceptacji cookies</p>
 
-<pre class="code"><code class="language-javascript">    typ: 'string'
-    domyślnie: 'Zgadzam się' // wyświetla tekst &quot;Zgadzam się&quot; jako etykieta przycisku
-    opcje: dowolny ciąg znaków // wyświetla dowolny tekst jako etykieta przycisku</code></pre>
+<div class="code"><pre><span></span>    <span class="nx">typ</span><span class="o">:</span> <span class="s1">&#39;string&#39;</span>
+    <span class="nx">domyślnie</span><span class="o">:</span> <span class="s1">&#39;Zgadzam się&#39;</span> <span class="c1">// wyświetla tekst &quot;Zgadzam się&quot; jako etykieta przycisku</span>
+    <span class="nx">opcje</span><span class="o">:</span> <span class="nx">dowolny</span> <span class="nx">ciąg</span> <span class="nx">znaków</span> <span class="c1">// wyświetla dowolny tekst jako etykieta przycisku</span>
+</pre></div>
 
 
 <h2 id="opcje-tekstu">Opcje tekstu<a class="headerlink" href="#opcje-tekstu" title="Permanent link">#</a></h2>
@@ -407,9 +438,10 @@
 </blockquote>
 <p>Treść informacji cookies</p>
 
-<pre class="code"><code class="language-javascript">    typ: 'string'
-    domyślnie: '&lt;p&gt;Strona korzysta z plików cookie w celu realizacji usług zgodnie z &lt;a href=&quot;tutaj wstawiany jest url&quot; &gt;Tutaj wstawiany jest tekst url&lt;/a&gt;&lt;br /&gt;Możesz okreslić warunki przechowywania lub dostępu do cookie w Twojej przeglądarce lub konfiguracji usługi.&lt;/p&gt; // wyświetla tekst &quot;Zgadzam się&quot; jako etykieta przycisku
-    opcje: dowolny tekst lub kod HTML // wyświetla treść informacji o cookies</code></pre>
+<div class="code"><pre><span></span>    <span class="nx">typ</span><span class="o">:</span> <span class="s1">&#39;string&#39;</span>
+    <span class="nx">domyślnie</span><span class="o">:</span> <span class="err">&#39;</span><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span><span class="nx">Strona</span> <span class="nx">korzysta</span> <span class="nx">z</span> <span class="nx">plików</span> <span class="nx">cookie</span> <span class="nx">w</span> <span class="nx">celu</span> <span class="nx">realizacji</span> <span class="nx">usług</span> <span class="nx">zgodnie</span> <span class="nx">z</span> <span class="o">&lt;</span><span class="nx">a</span> <span class="nx">href</span><span class="o">=</span><span class="s2">&quot;tutaj wstawiany jest url&quot;</span> <span class="o">&gt;</span><span class="nx">Tutaj</span> <span class="nx">wstawiany</span> <span class="nx">jest</span> <span class="nx">tekst</span> <span class="nx">url</span><span class="o">&lt;</span><span class="sr">/a&gt;&lt;br /</span><span class="o">&gt;</span><span class="nx">Możesz</span> <span class="nx">okreslić</span> <span class="nx">warunki</span> <span class="nx">przechowywania</span> <span class="nx">lub</span> <span class="nx">dostępu</span> <span class="k">do</span> <span class="nx">cookie</span> <span class="nx">w</span> <span class="nx">Twojej</span> <span class="nx">przeglądarce</span> <span class="nx">lub</span> <span class="nx">konfiguracji</span> <span class="nx">usługi</span><span class="p">.</span><span class="o">&lt;</span><span class="sr">/p&gt; /</span><span class="o">/</span> <span class="nx">wyświetla</span> <span class="nx">tekst</span> <span class="s2">&quot;Zgadzam się&quot;</span> <span class="nx">jako</span> <span class="nx">etykieta</span> <span class="nx">przycisku</span>
+    <span class="nx">opcje</span><span class="o">:</span> <span class="nx">dowolny</span> <span class="nx">tekst</span> <span class="nx">lub</span> <span class="nx">kod</span> <span class="nx">HTML</span> <span class="c1">// wyświetla treść informacji o cookies</span>
+</pre></div>
 
 
 <blockquote>
@@ -417,9 +449,10 @@
 </blockquote>
 <p>Etykieta linku</p>
 
-<pre class="code"><code class="language-javascript">   typ: 'string'
-   domyślnie: 'Polityką prywatności'
-   opcje: dowolny tekst // etykieta linku</code></pre>
+<div class="code"><pre><span></span>   <span class="nx">typ</span><span class="o">:</span> <span class="s1">&#39;string&#39;</span>
+   <span class="nx">domyślnie</span><span class="o">:</span> <span class="s1">&#39;Polityką prywatności&#39;</span>
+   <span class="nx">opcje</span><span class="o">:</span> <span class="nx">dowolny</span> <span class="nx">tekst</span> <span class="c1">// etykieta linku</span>
+</pre></div>
 
 
 <blockquote>
@@ -427,9 +460,10 @@
 </blockquote>
 <p>Adres URL</p>
 
-<pre class="code"><code class="language-javascript">   typ: 'string'
-   domyślnie: '#'
-   opcje: dowolny tekst // adres url do strony np. regulaminu, polityki prywatności</code></pre>
+<div class="code"><pre><span></span>   <span class="nx">typ</span><span class="o">:</span> <span class="s1">&#39;string&#39;</span>
+   <span class="nx">domyślnie</span><span class="o">:</span> <span class="s1">&#39;#&#39;</span>
+   <span class="nx">opcje</span><span class="o">:</span> <span class="nx">dowolny</span> <span class="nx">tekst</span> <span class="c1">// adres url do strony np. regulaminu, polityki prywatności</span>
+</pre></div>
 
 
 <h2 id="opcje-paska">Opcje paska<a class="headerlink" href="#opcje-paska" title="Permanent link">#</a></h2>
@@ -438,9 +472,10 @@
 </blockquote>
 <p>Pozycja paska na stronie</p>
 
-<pre class="code"><code class="language-javascript">    typ: 'string'
-    domyślnie: 'bottom' // pasek na dole
-    opcje: 'bottom', 'top' // pasek na dole, pasek na górze</code></pre>
+<div class="code"><pre><span></span>    <span class="nx">typ</span><span class="o">:</span> <span class="s1">&#39;string&#39;</span>
+    <span class="nx">domyślnie</span><span class="o">:</span> <span class="s1">&#39;bottom&#39;</span> <span class="c1">// pasek na dole</span>
+    <span class="nx">opcje</span><span class="o">:</span> <span class="s1">&#39;bottom&#39;</span><span class="p">,</span> <span class="s1">&#39;top&#39;</span> <span class="c1">// pasek na dole, pasek na górze</span>
+</pre></div>
 
 
 <blockquote>
@@ -448,9 +483,10 @@
 </blockquote>
 <p>Blokada pozycji paska podczas przewijania strony</p>
 
-<pre class="code"><code class="language-javascript">    typ: 'boolean'
-    domyślnie: false // włączona
-    opcje: true, false // blokada włączona, blokada wyłączona</code></pre>
+<div class="code"><pre><span></span>    <span class="nx">typ</span><span class="o">:</span> <span class="s1">&#39;boolean&#39;</span>
+    <span class="nx">domyślnie</span><span class="o">:</span> <span class="kc">false</span> <span class="c1">// włączona</span>
+    <span class="nx">opcje</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span> <span class="kc">false</span> <span class="c1">// blokada włączona, blokada wyłączona</span>
+</pre></div>
 
 
 <h2 id="obsuga-cookies">Obsługa "cookies"<a class="headerlink" href="#obsuga-cookies" title="Permanent link">#</a></h2>
@@ -459,9 +495,10 @@
 </blockquote>
 <p>Nazwa identyfikująca cookie</p>
 
-<pre class="code"><code class="language-javascript">    typ: 'string'
-    domyślnie: 'ciastka'
-    opcje: dowolny ciąg znaków // nazwa pod jaką będzie przechowywana zmienna w cookies</code></pre>
+<div class="code"><pre><span></span>    <span class="nx">typ</span><span class="o">:</span> <span class="s1">&#39;string&#39;</span>
+    <span class="nx">domyślnie</span><span class="o">:</span> <span class="s1">&#39;ciastka&#39;</span>
+    <span class="nx">opcje</span><span class="o">:</span> <span class="nx">dowolny</span> <span class="nx">ciąg</span> <span class="nx">znaków</span> <span class="c1">// nazwa pod jaką będzie przechowywana zmienna w cookies</span>
+</pre></div>
 
 
 <blockquote>
@@ -469,9 +506,10 @@
 </blockquote>
 <p>Czas wygaśnięcia</p>
 
-<pre class="code"><code class="language-javascript">    typ: 'number'
-    domyślnie: 30
-    opcje: wartość liczbowa // dowolna liczba całkowita (dzień)</code></pre>
+<div class="code"><pre><span></span>    <span class="nx">typ</span><span class="o">:</span> <span class="s1">&#39;number&#39;</span>
+    <span class="nx">domyślnie</span><span class="o">:</span> <span class="mi">30</span>
+    <span class="nx">opcje</span><span class="o">:</span> <span class="nx">wartość</span> <span class="nx">liczbowa</span> <span class="c1">// dowolna liczba całkowita (dzień)</span>
+</pre></div>
 
 
 <h2 id="opcje-deweloperskie">Opcje deweloperskie<a class="headerlink" href="#opcje-deweloperskie" title="Permanent link">#</a></h2>
@@ -480,9 +518,10 @@
 </blockquote>
 <p>Wyłącza dodawanie cookies</p>
 
-<pre class="code"><code class="language-javascript">    typ: 'boolean'
-    domyślnie: false
-    opcje: true, false // dodawanie cookies nieaktywne, dodawanie cookies aktywne</code></pre>
+<div class="code"><pre><span></span>    <span class="nx">typ</span><span class="o">:</span> <span class="s1">&#39;boolean&#39;</span>
+    <span class="nx">domyślnie</span><span class="o">:</span> <span class="kc">false</span>
+    <span class="nx">opcje</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span> <span class="kc">false</span> <span class="c1">// dodawanie cookies nieaktywne, dodawanie cookies aktywne</span>
+</pre></div>
           <aside class="copyright" role="note">
             
             Documentation built with

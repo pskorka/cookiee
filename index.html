@@ -109,6 +109,11 @@
     </div>
     
     
+      
+      <div class="button button-github" role="button" aria-label="GitHub">
+        <a href="https://github.com/pskorka" title="@pskorka on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
+      </div>
+    
     <div class="button button-search" role="button" aria-label="Search">
       <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
     </div>
@@ -238,6 +243,20 @@
           
         </ul>
         
+          <hr>
+          <span class="section">The author</span>
+          <ul>
+            
+            
+              
+              <li>
+                <a href="https://github.com/pskorka" target="_blank" title="@pskorka on GitHub">
+                  @pskorka on GitHub
+                </a>
+              </li>
+            
+          </ul>
+        
       </div>
     </div>
   </div>
@@ -262,48 +281,52 @@
 </ul>
 <h2 id="instalacja">Instalacja<a class="headerlink" href="#instalacja" title="Permanent link">#</a></h2>
 <p>Do działania wtyczki wymagana jest biblioteka jQuery. Możesz ją pobrać ze strony <a href="http://jquery.com/download/" _target="blank">http://jquery.com/download/</a>.</p>
-<pre class="code"><code class="language-javascript">    &lt;script type=&quot;text/javascript&quot; src=&quot;jquery.min.js&quot;&gt;&lt;/script&gt;</code></pre>
+<div class="code"><pre><span></span>    <span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&quot;text/javascript&quot;</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&quot;jquery.min.js&quot;</span><span class="o">&gt;&lt;</span><span class="err">/script&gt;</span>
+</pre></div>
 
 
 <p>Kolejny krok to podpięcie samej wtyczki cookiee</p>
-<pre class="code"><code class="language-javascript">    &lt;script type=&quot;text/javascript&quot; src=&quot;cookiee.min.js&quot;&gt;&lt;/script&gt;</code></pre>
+<div class="code"><pre><span></span>    <span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&quot;text/javascript&quot;</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&quot;cookiee.min.js&quot;</span><span class="o">&gt;&lt;</span><span class="err">/script&gt;</span>
+</pre></div>
 
 
 <h2 id="uruchomienie">Uruchomienie<a class="headerlink" href="#uruchomienie" title="Permanent link">#</a></h2>
 <p>Inicjalizacja wtyczki</p>
-<pre class="code"><code class="language-javascript">        // Widok domyślny
-        $('body').cookiee();
+<div class="code"><pre><span></span>        <span class="c1">// Widok domyślny</span>
+        <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;body&#39;</span><span class="p">).</span><span class="nx">cookiee</span><span class="p">();</span>
 
-        // Informacja umieszczona wewnątrz konteneta w postaci ciemnego paska
-        $('.myClass').cookiee({
-            type: 'bar',
-            theme: 'dark'
-        });</code></pre>
+        <span class="c1">// Informacja umieszczona wewnątrz konteneta w postaci ciemnego paska</span>
+        <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.myClass&#39;</span><span class="p">).</span><span class="nx">cookiee</span><span class="p">({</span>
+            <span class="nx">type</span><span class="o">:</span> <span class="s1">&#39;bar&#39;</span><span class="p">,</span>
+            <span class="nx">theme</span><span class="o">:</span> <span class="s1">&#39;dark&#39;</span>
+        <span class="p">});</span>
+</pre></div>
 
 
 <h2 id="gotowy-przykad">Gotowy przykład<a class="headerlink" href="#gotowy-przykad" title="Permanent link">#</a></h2>
-<pre class="code"><code class="language-html">        &lt;html&gt;
-        &lt;head&gt;
-            &lt;script type=&quot;text/javascript&quot; src=&quot;jquery.min.js&quot;&gt;&lt;/script&gt;
-            &lt;script type=&quot;text/javascript&quot; src=&quot;js/cookiee.min.js&quot;&gt;&lt;/script&gt;
-            &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/cookiee.min.css&quot; media=&quot;all&quot;/&gt;
-            &lt;script&gt;
+<div class="code"><pre><span></span>        <span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/javascript&quot;</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;jquery.min.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/javascript&quot;</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;js/cookiee.min.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/css&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;css/cookiee.min.css&quot;</span> <span class="na">media</span><span class="o">=</span><span class="s">&quot;all&quot;</span><span class="p">/&gt;</span>
+            <span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
 
-                $(document).ready(function() {
-                    $('body').cookiee({
-                        modalWidth: '400',
-                        modalRoundCorners: true,
-                        theme: 'dark'
-                    });
-                });
+                <span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+                    <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;body&#39;</span><span class="p">).</span><span class="nx">cookiee</span><span class="p">({</span>
+                        <span class="nx">modalWidth</span><span class="o">:</span> <span class="s1">&#39;400&#39;</span><span class="p">,</span>
+                        <span class="nx">modalRoundCorners</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+                        <span class="nx">theme</span><span class="o">:</span> <span class="s1">&#39;dark&#39;</span>
+                    <span class="p">});</span>
+                <span class="p">});</span>
 
-            &lt;/script&gt;
-        &lt;/head&gt;
-        &lt;body&gt;
-           &lt;section&gt;Hello Cookiee&lt;/section&gt;
-        &lt;/body&gt;
-        &lt;footer&gt;&lt;/footer&gt;
-        &lt;/html&gt;</code></pre>
+            <span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+           <span class="p">&lt;</span><span class="nt">section</span><span class="p">&gt;</span>Hello Cookiee<span class="p">&lt;/</span><span class="nt">section</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">footer</span><span class="p">&gt;&lt;/</span><span class="nt">footer</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</pre></div>
           <aside class="copyright" role="note">
             
             Documentation built with
