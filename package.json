@@ -1,0 +1,40 @@
+{
+  "name": "cookies-info",
+  "version": "1.0.0",
+  "description": "Easy and beautiful plugin displaying information about cookies on your website",
+  "keywords": [
+    "cookies",
+    "divante",
+    "cookiee",
+    "law"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pskorka/cookiee.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pskorka/cookiee/issues",
+    "email" : "pskorka@divante.pl"
+  },
+  "author": "Pawel Skorka",
+  "license": "MIT",
+  "devDependencies": {
+    "event-stream": "^3.3.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-livereload": "^3.8.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-watch": "^4.3.5",
+    "normalize.css": "^4.1.1"
+  },
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "js-cookie": "^2.1.1"
+  }
+}
