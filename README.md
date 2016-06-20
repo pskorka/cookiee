@@ -1,6 +1,6 @@
 # Cookiee
 
-<img src="https://pskorka.github.io/cookiee/images/logo_big.png" style="margin:0 auto; text-align:center; display:block; width:300px;">
+<img src="https://pskorka.github.io/cookiee/images/logo.png" style="margin:0 auto; text-align:center; display:block; width:300px;">
 
 Cookiee to wtyczka napisana w języku javascript, która informuje użytkownika który odwiedza stronę internetową, że do poprawnego jej działania wymagana jest zgoda na zapis oraz odczyt ciasteczek. Jako właściciel strony musisz umieścić zrozumiałą, czytelną i widoczną dla użytkownika infomację o ciasteczkach na swojej stronie. W tym celu powstała wtyczka Cookies, która pozwala na indywidualne dostosowanie komunikatu, jednocześnie spełniając wymogi prawne z zapisów Art. 173, 174 oraz Art. 209 znowelizowanej ustawy Prawa Telekomunikacyjnego.
 
