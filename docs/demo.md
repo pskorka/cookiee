@@ -15,3 +15,4 @@
     <a href="javascropt:void(0)" id="create"><i class="icon icon-cog"></i> Generuj</a>
 </div>
 
+
